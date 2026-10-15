@@ -5,7 +5,7 @@ namespace RaceDayAPI.Data
 {
     public class RaceDayDbContext : DbContext
     {
-        public RaceDayDbContext(DbContextOptions<RaceDayDbContext> options) : base(options) { }
+        public RaceDayDbContext(DbContextOptions<RaceDayDbContext> options) : base { }
 
         public DbSet<User> Users { get; set; }
         public DbSet<Event> Events { get; set; }
