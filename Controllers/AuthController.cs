@@ -46,7 +46,7 @@ namespace RaceDayAPI.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserLoginDto request)
+        public async Task<IActionResult> Login (UserLoginDto request)
         {
             var user = _context.Users.FirstOrDefault(u => u.Email == request.Email);
             if (user == null)
