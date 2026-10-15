@@ -86,7 +86,7 @@ namespace RaceDayAPI.Controllers
             var existingEvent = await _context.Events.FindAsync(id);
 
             if (existingEvent == null) return NotFound();
-            if (existingEvent.OrganiserId != userId) return Forbid("You can only delete your own events.");
+            if (existingEvent.OrganiserId != userId) return Forbid;
 
             _context.Events.Remove(existingEvent);
             await _context.SaveChangesAsync();
