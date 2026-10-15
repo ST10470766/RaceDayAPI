@@ -22,7 +22,7 @@ namespace RaceDayAPI.Controllers
             _configuration = configuration;
         }
 
-        [HttpPost("register")]
+        [HttpPost]
         public async Task<IActionResult> Register(UserRegisterDto request)
         {
             if (_context.Users.Any(u => u.Email == request.Email))
