@@ -58,7 +58,7 @@ namespace RaceDayAPI.Controllers
                 .Select(e => new
                 {
                     e.Id,
-                    ParticipantName = e.Participant.Name + " " + e.Participant.Surname,
+                    ParticipantName = e.Participant.Name + "  " + e.Participant.Surname,
                     CategoryName = e.Category.Name
                 }).ToList();
 
