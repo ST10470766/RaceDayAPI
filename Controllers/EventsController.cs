@@ -15,7 +15,7 @@ namespace RaceDayAPI.Controllers
     {
         private readonly RaceDayDbContext _context;
 
-        public EventsController(RaceDayDbContext context)
+        public EventsController
         {
             _context = context;
         }
