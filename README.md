@@ -291,6 +291,8 @@ The **RaceDay RESTful API** has been successfully implemented to meet all requir
 - Comprehensive Swagger documentation for live endpoint testing.
 - Full unit test coverage ensuring reliable behavior.
 - An automated CI/CD pipeline via GitHub Actions.
+- Trigger CI pipelines
+- 
 
 The system is robust, scalable, and ready to be integrated with the RaceDay frontend application in Part 3.
 
