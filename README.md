@@ -243,7 +243,7 @@ A `.github/workflows/dotnet.yml` workflow is configured to automate building and
 ---
 
 ### 11. Getting Started
-
+Trigger CI pipeline
 #### Prerequisites
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or VS Code
